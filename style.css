@@ -54,6 +54,9 @@ footer {
   float: left;
 }
 @media only screen and (max-width: 600px) {
+  main {
+    width: 100%;
+  }
   aside {
     display: none;
   } /* display none é para não aparecer */
@@ -77,3 +80,4 @@ footer {
     background-color: rgb(170, 169, 169);
   }
 }
+
